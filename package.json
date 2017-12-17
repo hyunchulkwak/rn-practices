@@ -12,5 +12,13 @@
   "name": "rn-practices",
   "version": "0.0.0",
   "description": "React-Native Practices",
-  "author": "Hyunchul Kwak <hyunchulkwak@gmail.com>"
+  "author": "Hyunchul Kwak <hyunchulkwak@gmail.com>",
+  "scripts": {
+    "start": "yarn run rndebugger && exp start",
+    "rndebugger": "rndebugger-open --revert && rndebugger-open --open --expo"
+  },
+  "devDependencies": {
+    "exp": "^47.1.1",
+    "react-native-debugger-open": "^0.3.15"
+  }
 }
